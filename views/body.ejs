@@ -1,0 +1,20 @@
+<div id="container"></div>
+<h4 id="status">Syncs in realtime across clients<i class="fa fa-spinner fa-pulse fa-1x" style="margin-top:10px"></i></h4>
+<div class="row" id="stocks" style="padding-bottom:10px">
+  
+</div>
+<div class="row" >
+  <div class="col-xs-10">
+    <input type="text" id="inputStock" class="form-control" placeholder="add a new stock here" list="stockSuggestList"/> 
+    <datalist id="stockSuggestList">
+  
+</datalist>
+  </div>
+  <div class="col-xs-2"><button id="addbutton" class="btn btn-primary">Add Stock</button></div>
+</div>
+<script>
+$(document).ready(function(){
+	$("#home").addClass("bg-lightgray");
+	$.initialGraph();
+});
+</script>

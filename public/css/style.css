@@ -1,0 +1,39 @@
+.banner{
+  font-size:16px;
+  margin-bottom:0px;
+  margin-top:0px;
+  /*diplay:block;*/
+  background:dimgray;
+}
+.btn-width{
+  width:100px
+}
+.bg-lightgray{
+  background:darkgray;
+}
+.margin{
+  margin:20px;
+}
+.padding{
+  padding:20px;
+}
+.center{
+  text-align:center;
+}
+a{
+  color:white;
+}
+a:link{
+  color:white;
+}
+a:hover{
+  /*text-decoration:none;*/
+  color:white;
+}
+a:visit{
+  text-decoration:none;
+}
+
+a:active{
+  color:lightgray;
+}
